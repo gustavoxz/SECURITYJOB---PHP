@@ -1,0 +1,198 @@
+body{
+    background-color:rgb(26, 156, 217);
+}
+
+.fundo {
+    width: 100%;
+    height: 400px;
+    background-image: url('/imagens/fundo.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom:900px;
+}
+
+.logo{
+    width:100%;
+    height:200px;
+    text-align:center;
+    margin-top:35px;
+    opacity: 0.8;
+    
+}
+
+.logo img {
+    height:100%;
+}
+
+
+.botao_voltar {
+    margin-top:35px;
+}
+
+
+.pesquisa_link {
+    margin-top:35px;
+}
+
+.pesquisa_link input{
+    width: 50%;
+    margin-left:25%;
+    display: inline;
+}
+
+.descrever, .consultar_vagas {
+    text-align: center;
+}
+
+
+.consultar_vagas {
+    margin-top:35px;
+}
+
+.titulo {
+    margin-bottom:35px;
+}
+
+.titulo h1 {
+    color: white;
+}
+
+.conteudo, .conteudo2, .conteudo3 {
+    background-color: rgb(122, 201, 239);
+    border-radius:18px;
+    min-height:300px;
+}
+
+.conteudo {
+}
+
+.conteudo2, .conteudo3 {
+    padding:35px;
+}
+
+.conteudo3 td {
+    padding:15px;
+}
+
+.conteudo form {
+    padding:35px;
+    margin-left:30%;  
+    width:40%;
+}
+
+.conteudo form table tr  label, .conteudo form table tr input{
+    margin-bottom:25px;
+    text-align: center;
+}
+
+
+.nelson{
+    text-align: right;
+}
+
+.nelson input {
+    margin-top:15px;
+}
+
+.cursos {
+    margin-top:50px;
+}
+
+.cursos .item {
+    width: 30%;
+    margin-left:10%;
+    margin-bottom: 35px;
+    line-height: 50px;
+    text-align: center;
+    height:110px;
+    background-color: rgb(122, 201, 239);;
+    float:left;
+}
+.cursos .item  img{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+/* PAGINA VAGA  */
+
+
+.termometro {
+    min-height:250px;
+    width:280px;    
+    background-color: rgb(24, 148, 207);
+    display: inline-block;
+    line-height: 250px;
+    color:white;
+    font-weight: bold;
+    font-size:30px;
+    text-align: center;
+}
+
+
+
+.rodape{
+    height:250px;
+    background-color: rgb(122, 201, 239);
+    margin-top:35px;
+    color:white;
+    text-align: center;
+    line-height:250px;
+    font-size:50px;
+    margin-bottom:35px;
+}
+
+.clear {
+    clear:both;
+}
+
+
+.botao_inicio {
+    min-width:200px;
+}
+
+.bot {
+    position:fixed;
+    right:0;
+    bottom:50px;
+    background-color:rgba(95, 96, 204, 0.7);
+    overflow-y: scroll;
+    width:30%;
+    height:300px;
+    color:white;
+    font-weight:bold;
+    padding:15px;
+}
+
+.nelsonn {
+    position:fixed;
+    width:5%;
+    height:50px;
+    line-height : 50px;
+    text-align: center;
+    background-color: rgb(24, 148, 207);
+    cursor:pointer;
+    right:0;
+    bottom:0;
+    color:white;
+    font-weight: bold;
+    margin:0;
+}
+
+#mensagem {
+    width:25%;
+    height: 50px;
+    position:fixed;
+    bottom:0;
+    color:black;
+    right:5%;
+}
+
+.fraco {
+    font-style: italic;
+    font-weight: normal !important;
+}
+
+
